@@ -1,0 +1,146 @@
+html{
+    font-size: 100px;
+}
+body{
+    background: #f8f8f8;
+}
+header{
+    height: 1.12rem;
+    background: #252525;
+}
+.logo{
+    width: 2.1rem;
+    height:0.62rem;
+    background: url("../images/logo.png")center center no-repeat;
+    float: left;
+    background-size: cover;
+    margin-top:.25rem;
+    margin-left: .16rem;
+}
+.menu{
+    float: right;
+    width: 0.36rem;
+    height: 0.32rem;
+    background: url("../images/menu.png")center center no-repeat;
+    background-size: cover;
+    margin-top: .4rem;
+    margin-right: .23rem;
+}
+.allClass{
+    padding: .33rem .17rem 0;
+    box-sizing: border-box;
+}
+.allClass h3{
+    height: .35rem;
+    margin-bottom: .36rem;
+}
+.allClass h3 .book{
+    width: .29rem;
+    height: .35rem;
+    background: url("../images/book.png") center center no-repeat;
+    background-size: cover;
+    float: left;
+}
+.allClass h3>span{
+    float: left;
+    font-size: .26rem;
+    color: #4C4B4B;
+    margin-left: .12rem;
+}
+.swiper-container {
+    width:100%;
+    height: 3.43rem;
+}
+.swiper-container .swiper-slide{
+    background-size: cover;
+}
+.classLists {
+    margin-bottom: 1.83rem;
+}
+.classLists a{
+    display: block;
+}
+.classLists .classCover {
+    height: 2.79rem;
+    background: url("../images/vue.png") center center no-repeat ;
+    background-size: cover;
+}
+.classText{
+    height: 1.46rem;
+    background: #fff;
+}
+.classText h4{
+    font-size: .28rem;
+    color: #777777;
+    font-weight: 400;
+    text-align: center;
+    margin-top: .33rem;
+    margin-bottom: .24rem;
+}
+.classText p{
+    font-size: .28rem;
+    font-weight: 400;
+    color: #ED3A3A;
+    text-align: center;
+}
+.classLists li{
+    border-radius: .1rem;
+    box-shadow: 0rem .01rem .2rem rgba(1,1,1,.3);
+    overflow: hidden;
+    margin-bottom: 0.4rem;
+}
+.footer{
+    width: 100%;
+    background: #fff;
+    height: 1.07rem;
+    border-top: 0.01rem solid #d5d5d5;
+    position:fixed;
+    left: 0;
+    bottom:0;
+}
+.footer li{
+    width: 33.33%;
+    height: 1.07rem;
+    float: left;
+}
+.footer li a{
+    display: block;
+    color: #ABABAB;
+}
+.indexIcon .icon{
+    width: 0.46rem;
+    height: 0.32rem;
+    background: url("../images/index.png") center center no-repeat;
+    background-size:cover;
+    margin: 0.2rem auto 0.13rem;
+}
+.footer .iconText{
+    text-align: center;
+    font-size: 0.16rem;
+}
+.classIcon .icon {
+    width: 0.4rem;
+    height: 0.39rem;
+    background: url("../images/class.png")center center no-repeat;
+    background-size: cover;
+    margin: .17rem auto 0.11rem;
+}
+.centerIcon .icon{
+    width: 0.36rem;
+    height: 0.36rem;
+    background: url("../images/center.png")center center no-repeat;
+    background-size: cover;
+    margin: .17rem auto 0.13rem;
+}
+.footer li:nth-child(1).current .icon {
+    background-image: url("../images/index hover.png");
+}
+.footer li:nth-child(2).current .icon {
+    background-image: url("../images/classhover.png");
+}
+.footer li:nth-child(3).current .icon {
+    background-image: url("../images/centerhover.png");
+}
+.footer .current a{
+    color: #188AE4;
+}
